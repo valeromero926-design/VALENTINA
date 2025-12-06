@@ -1,0 +1,190 @@
+
+.header{background:rgba(199, 144, 62, 1);
+color: rgb(0, 0, 0);
+display: flex;
+justify-content:space-between;
+height: 120px;
+flex-wrap: wrap;
+}
+
+.container {
+    max-width: width 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    padding: 0 1em;
+}
+.menu{
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0px;
+}
+h1 strong {
+    color: rgb(190, 111, 37);
+}
+h1{ 
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: rgb(49, 46, 194);
+    margin: 0;
+}
+.logo{
+    padding-top: 1;
+
+}
+.valentina{
+    height: 300px;
+    background-image: url(valentina-gato.png);
+    background-color: rgb(139, 148, 225);
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titulo{
+    color: rgb(190, 135, 32);
+    font-size: 3em;
+}
+.portafolio{
+    background-color: rgb(151, 86, 0);
+    padding: 20px;
+}
+.project{
+    border: 10px solid rgb(212, 161, 66);
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+.event-list{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+ .event {
+    margin: 1%;
+    width: 48%;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: rgb(204, 145, 55);
+ }
+
+ .event-img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+ }
+.html-video {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.youtube-video {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.event-detalis{
+    margin: 20px 40px;
+    background-color: azure;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.event-url{
+    border: 1px solid rgb(196, 146, 40);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: rgb(189, 129, 33);
+    border-radius: 5px;
+}
+.contact { 
+    display: flex;
+    background-color: rgb(204, 149, 67);
+    color: rgb(208, 255, 0);
+    height: 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form-email {
+    padding: 5px;
+}
+.form-email input {
+    border-color: rgb(32, 217, 250);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+}
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: bisque;
+    padding: 5px 0;
+    width: 100px;
+    /*margin: 10px auto 0;*/
+    border-color: aquamarine;
+    border-style: solid;
+}
+.social { 
+    display: flex;
+    align-items: center
+}
+
+.social-link {
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+    margin: 0 10px;
+    background-size: 50px 50px;
+    border-radius: 150px;
+}
+.social-link.instagram {
+background-image: url(instagram.png);
+}
+.social-link.facebook{
+    background-image: url(facebbook.jpeg);
+}
+.social-link.tik-tok{
+    background-image: url(tik\ tok.png);
+}
